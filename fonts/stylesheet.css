@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Evanston Tavern 1919';
+    src: url('EvanstonTavern-1919Medium.woff2') format('woff2'),
+        url('EvanstonTavern-1919Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Evanston Tavern 1919';
+    src: url('EvanstonTavern-1919Medium.woff2') format('woff2'),
+        url('EvanstonTavern-1919Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

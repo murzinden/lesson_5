@@ -1,0 +1,236 @@
+/* подключение шрифта */
+/* &display=swap&subset=cyrillic-ext */
+
+/* обнуление */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html {
+	font-size: 20px;
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ------------------------ */
+.main {
+	color: #fff;
+	padding: 40px;
+	background-color: #808080;
+}
+
+.block1 {
+	background-color: #800080;
+	width: 500px;
+	margin: 0px auto 20px auto;
+	padding: 20px;
+}
+.block2 {
+	background-color: #ff7f50;
+	min-width: 500px;
+	margin: 0px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;
+}
+
+.block3 {
+	max-width: 500px;
+	background-color: #7fff00;
+	margin: 0px 0px 20px auto;
+	padding: 0px 20px 0px 20px;
+}
+
+.block4 {
+	max-width: 500px;
+	background-color: #8c8cf0;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 20px 30px;
+}
+.block5 {
+	background-color: #008000;
+	width: 500px;
+	margin: 0 auto 20px auto;
+	height: 200px;
+	overflow: scroll;
+}
+
+.img {
+	margin: 0 auto 20px auto;
+	max-width: 470px;
+	background-color: #000;
+	padding: 30px 0px 30px 0px;
+	text-align: center;
+}
+
+.link {
+	display: inline-block;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 40px;
+	background-color: #fff;
+	padding: 10px 10px;
+	margin: 0 auto;
+}
+.linkcenter {
+	text-align: center;
+	display: block;
+	margin: 0px 0px 20px 0px;
+}
+
+.block6 {
+	max-width: 500px;
+	background-color: #05213b;
+	padding: 30px;
+	display: inline-block;
+	margin: 0px 100px 0px 0px;
+}
+.block7 {
+	max-width: 500px;
+	background-color: #05213b;
+	padding: 30px;
+	display: inline-block;
+	margin: 0px 0px 20px 0px;
+}
+.inline {
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	background-color: #360649;
+	padding: 30px;
+	margin: 0px 0px 20px 0px;
+}
+.blocknone {
+	max-width: 500px;
+	background-color: #05213b;
+	padding: 30px;
+	margin: 0px 0px 20px 0px;
+	display: none;
+}
+
+.block8 {
+	max-width: 500px;
+	background-color: #2c4d07;
+	padding: 30px;
+	margin: 0px auto 0px auto;
+}
+
+.block9 {
+	max-width: 500px;
+	background-color: #095c43;
+	padding: 30px;
+	margin: -50px auto 40px auto;
+}
+
+.tasktitle {
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	text-transform: uppercase;
+}
+.taskspan span {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+.taskspan {
+	margin: 0px 0px 0px 0px;
+}
+
+.taskdivbox {
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+.taskdiv {
+	background-color: #3b5a06;
+	font-size: 18px;
+	max-width: 200px;
+	height: 200px;
+	padding: 15px;
+	display: inline-block;
+}
+
+.tasklink {
+	max-width: 70px;
+	margin: 0 auto;
+}
+
+.tasklink a {
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+}
+
+.taskparagraphbox {
+	text-align: center;
+}
+
+.taskparagraph {
+	display: inline-block;
+	max-width: 100px;
+	background-color: #360649;
+	font-size: 14px;
+	padding: 10px;
+	margin: 0px 30px 0px 0px;
+}
+
+.tasklayerdiv1 {
+	background-color: #dc143c;
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 30px;
+}
+.tasklayerdiv2 {
+	background-color: rgba(20, 140, 220, 0.5);
+	max-width: 300px;
+	padding: 30px;
+	margin: -30px auto 0 auto;
+}
+
+.taskscroll {
+	display: block;
+	background-color: #b8860b;
+	height: 200px;
+	width: 300px;
+	overflow: auto;
+	margin: 0 auto;
+}
